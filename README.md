@@ -2,6 +2,10 @@
 
 Minimal event-driven webhook bridge for GitHub → OpenClaw.
 
+## Deployment guide
+
+For a full production-style setup guide — from server prep and `.env` configuration to OpenClaw hooks, user-level systemd, Caddy + sslip.io, and GitHub webhook setup — see [docs/deployment-guide.md](docs/deployment-guide.md).
+
 ## What it does
 
 `repo-warden` receives GitHub webhook events, filters the ones that mention `@openclaw`,
